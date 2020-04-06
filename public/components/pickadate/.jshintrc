@@ -1,0 +1,9 @@
+{
+  "debug": true,
+  "devel": true,
+  "browser": true,
+  "asi": true,
+  "unused": "vars",
+  "eqnull": true,
+  "newcap": false
+}

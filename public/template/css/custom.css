@@ -1,0 +1,207 @@
+#modal-alert .uk-modal-header {
+    background: transparent;
+    border-color: #000;
+}
+
+#modal-alert .uk-modal-title {
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+#modal-alert * {
+    color: #696969;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+#modal-alert .alert-success {
+//    background: #4caf50;
+}
+
+#modal-alert .alert-success .uk-modal-header,
+#modal-alert .alert-danger .uk-modal-header,
+#modal-alert .uk-alert-primary .uk-modal-header {
+    border-color: #fff;
+}
+
+#modal-alert .alert-success *,
+#modal-alert .alert-danger *,
+#modal-alert .uk-alert-primary * {
+}
+
+#modal-alert .alert-danger {
+    background: #ef5350;
+}
+
+#modal-alert .alert-warning {
+    background: #ffd802;
+}
+
+#modal-alert .alert-primary {
+    background: #2196f3;
+}
+
+.uk-notification .uk-notification-message {
+    border-radius: 5px;
+    -webkit-webkit-border-radius: 5px;
+    -moz-webkit-border-radius: 5px;
+    -ms-webkit-border-radius: 5px;
+    -o-webkit-border-radius: 5px;
+    webkit-border-radius: 5px;
+}
+
+.uk-notification .uk-notification-message * {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.uk-notification .uk-notification-message.uk-notification-message-danger {
+    background: #ef5350;
+}
+
+.uk-notification .uk-notification-message.uk-notification-message-success {
+    background: #4caf50;
+}
+
+.uk-notification .uk-notification-message.uk-notification-message-warning {
+    background: #ffd802;
+}
+
+.uk-notification .uk-notification-message.uk-notification-message-warning * {
+    color: #fff;
+}
+
+.uk-notification .uk-notification-message.uk-notification-message-primary {
+    background: #2196f3;
+}
+
+.uk-notification .uk-notification-close {
+    top: 5px;
+    right: 5px;
+}
+
+.user-photo {
+    height: 95px;
+    width: 95px;
+    position: relative;
+}
+
+.user-photo .uk-icon {
+    position: absolute;
+    top: 20px;
+    right: 23px;
+    color: #000;
+    display: none;
+    z-index: 1;
+}
+
+.user-photo .js-upload {
+    height: 95px;
+    width: 95px;
+    margin: 0;
+    padding: 0;
+    border: transparent;
+    cursor: pointer;
+}
+
+.user-photo .js-upload .file-upload-field {
+    height: 100%;
+    width: 100%;
+}
+
+.user-photo:hover .uk-icon {
+    display: block;
+}
+
+.user-photo:hover .js-upload {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: .8;
+    -khtml-opacity: .8;
+    opacity: .8;
+}
+
+.user-photo progress {
+    height: 5px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.user-photo progress::-webkit-progress-bar {
+    background-color: #262626;
+}
+
+.user-photo progress::-webkit-progress-value {
+    background-color: #ffd802;
+}
+
+.user-photo progress::-moz-progress-bar {
+    background-color: #ffd802;
+}
+
+.user-photo progress::-ms-fill {
+    background-color: #ffd802;
+}
+
+.form-action-user {
+    display: none;
+}
+
+.form-action-user .uk-form-button {
+    display: none;
+    background: #fdc705;
+    border-radius: 5px;
+    -webkit-webkit-border-radius: 5px;
+    -moz-webkit-border-radius: 5px;
+    -ms-webkit-border-radius: 5px;
+    -o-webkit-border-radius: 5px;
+    webkit-border-radius: 5px;
+}
+
+.form-action-user .uk-help-block {
+    display: none;
+}
+
+.form-action-user.sing_in .uk-help-block,
+.form-action-user.log_in .uk-form-button {
+    display: block;
+}
+
+.form-action-link .open .icon-check:before {
+    opacity: 1;
+}
+
+
+.uk-mark-list {
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+.uk-mark {
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 6px;
+    -webkit-webkit-border-radius: 6px;
+    -moz-webkit-border-radius: 6px;
+    -ms-webkit-border-radius: 6px;
+    -o-webkit-border-radius: 6px;
+    webkit-border-radius: 6px;
+    padding: 2px 8px 1px;
+}
+
+.uk-mark.mark-discount {
+    background: #ff0000;
+}
+
+.uk-mark.mark-new {
+    background: #00c05a;
+}

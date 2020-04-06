@@ -1,0 +1,5 @@
+baseurl: /pickadate.js
+permalink: pretty
+markdown: redcarpet
+pygments: true
+exclude: ['Gruntfile.js', '*.sublime-project', '*.sublime-workspace', 'node_modules']
